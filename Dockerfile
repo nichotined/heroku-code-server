@@ -26,6 +26,7 @@ RUN apt-get install -y tzdata && \
     vim \
    rclone \
    fuse \
+   golang-go \
     && rm -rf /var/lib/apt/lists/*
 
 
